@@ -17,19 +17,19 @@
     <div class=" justify-content-center">
         <form>
             <div class="form-group">
-                <label for="exampleFormControlInput1">Student Name </label>
+                <label for="exampleFormControlInput1">Name</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Full Name" required>
             </div>
             <div class="form-group">
-                <label for="exampleFormControlInput1">Student Email </label>
+                <label for="exampleFormControlInput1">Email</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
             </div>
             <div class="form-group">
-                <label for="exampleFormControlInput1">Student Telephone </label>
+                <label for="exampleFormControlInput1">Phone</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your phone" required>
             </div>
             <div class="form-group">
-                <label for="exampleFormControlTextarea1">Feedback</label>
+                <label for="exampleFormControlTextarea1">Comments</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
             </div>
             <button type="submit" class="btn btn-success btn-block">Submit</button>
