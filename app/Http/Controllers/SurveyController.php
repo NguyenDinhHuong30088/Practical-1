@@ -12,20 +12,20 @@ class SurveyController extends Controller
             "name"=>"required",
             "email"=>"required|email",
             "phone"=>"required",
-            "comment"=>"required"
+            "comments"=>"required"
         ],[
             "name.required"=>"Nhập tên sinh viên",
             "email.required"=>"Nhập email",
             "phone.required"=>"Nhập số điện thoại",
-            "comment.required"=>"Nhập nhận xét : .!",
+            "comments.required"=>"Nhập nhận xét : .!",
         ]);
         Comment::create([
             "name"=>$request->get("name"),
             "email"=>$request->get("email"),
             "phone"=>$request->get("phone"),
-            "comment"=>$request->get("comment")
+            "comments"=>$request->get("comments")
         ]);
 
-        return redirect()->back()->with('success','Đã Gửi.!');
+        return redirect()->back()->with('success','Đã Gửi...!');
     }
 }
